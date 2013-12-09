@@ -48,7 +48,7 @@ definePackage("xebia.blog", function(pkg) {
 
     pkg.BlockArticleCollection = Backbone.Collection.extend({
 
-        url : "http://blog.xebia.fr/wp-json-api/get_category_posts/?slug=nosql",
+        url : "http://blog.xebia.fr/wp-json-api/get_category_posts/?slug=mobilite",
 
         sync: function(method, model, options) {
             options.dataType = "jsonp";

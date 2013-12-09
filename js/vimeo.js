@@ -29,7 +29,7 @@ definePackage("xebia.vimeo", function(pkg) {
 
     pkg.VimeoVideoCollection = Backbone.Collection.extend({
 
-        url : "http://vimeo.com/api/v2/channel/"+ xebia.constants.VIMEO_CHANNEL_ID +"/videos.json",
+        url : "http://vimeo.com/api/v2/channel/630386/videos.json",
 
         sync: function(method, model, options) {
             options.dataType = "jsonp";

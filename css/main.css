@@ -11,11 +11,17 @@ a {
 a:hover {
     opacity: 0.9;
 }
-h1, h2 {
+h1 {
     color: #6a205f;
     font: 65px 'UbuntuRegular', Arial, sans-serif;
     text-transform: uppercase;
 }
+h2 {
+    color: #6a205f;
+    font: 24px 'UbuntuRegular', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
 #content {
     font: 18px 'UbuntuRegular', Arial, sans-serif;
     width: 100%;
@@ -172,15 +178,7 @@ h1, h2 {
     text-align: left;
 }
 
-.hello .big-data-intro p.download-pdf {
-    margin-top: 10px;
-    font-size: 18px;
-}
 
-.hello .big-data-intro p.download-pdf a {
-    margin-left: 10px;
-    color: #6a205f;
-}
 
 /* our offer */
 
@@ -188,6 +186,8 @@ h1, h2 {
 .our-offer {
     background-color: #f0efed;
 }
+
+
 
 .our-offer .our-offer-content {
     margin: auto;
@@ -213,10 +213,43 @@ h1, h2 {
     width: 695px;
 }
 
-.our-offer-monetize {
-    height: 130px;
-    background: transparent url(../images/our-offer-monetize.png) no-repeat top center;
+
+
+
+/* our value */
+
+
+.our-value {
+    
 }
+
+
+
+.our-value .our-offer-content {
+    margin: auto;
+    height: 100%;
+    width: 1000px;
+    position: relative;
+}
+
+.our-value .our-value-content h2 {
+    padding: 20px 0px;
+    font-size: 42px;
+}
+
+.our-value .our-value-content p {
+    padding: 0px 15px;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.our-value .our-value-content .our-value-subcontent {
+    margin: auto;
+    width: 695px;
+}
+
+
 
 /* our formations */
 

@@ -1,0 +1,106 @@
+/****************************************/
+/*      CSS for the team page           */
+/****************************************/
+
+/***********************/
+/*      Team           */
+/***********************/
+
+.thumbnails {
+    padding-left: 47px;
+}
+
+.thumbnails:before, .thumbnails:after {
+    display: table;
+    content: "";
+}
+
+.thumbnails:after {
+    clear: both;
+}
+
+.thumbnails > li {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.thumbnail {
+    text-align: center;
+    display: block;
+    padding: 4px;
+    line-height: 1;
+    border: 0px solid #ddd;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.075);
+}
+
+.thumbnail .caption {
+    padding-top: 15px;
+}
+
+
+img#jlmorlhon {
+    margin-left: 3px;
+    margin-top: 18px;
+}
+
+img#hgeissmann {
+    margin-left: 100px;
+}
+
+img#cleclerc {
+    margin-left: 22px;
+    margin-top: 63px;
+}
+
+img#gmantel {
+    margin-left: 100px;
+}
+
+img#fdubois {
+    margin-left: 0px;
+}
+
+img#scaplette {
+    margin-left: 25px;
+    margin-top: 16px;
+}
+
+img#jhelou {
+    margin-left: 0px;
+    margin-top: 15px;
+}
+
+img#plopez {
+    margin-left: 0px;
+}
+
+img#blemoine {
+    margin-left: 41px;
+}
+
+img#njozwiak {
+    margin-top: 19px;
+}
+
+img#dlemos {
+    margin-top: 54px;
+}
+
+img#apedro {
+    margin-top: 90px;
+}
+
+img#akinsella {
+    margin-top: 30px;
+}
+
+img#cleclerc {
+    margin-top: 130px;
+}
+
+
